@@ -1,7 +1,6 @@
 import streamlit as st
 import datetime
 import pandas as pd
-import openpyxl
 import plotly.express as px
 
 altura = 600
@@ -12,7 +11,6 @@ cor_real = "goldenrod"
 st.set_page_config(layout="wide")
 
 print(f"Pandas: {pd.__version__}")
-print(f"Openpyxl: {openpyxl.__version__}")
 print(f"Streamlit: {st.__version__}")
 
 caminho = "https://drive.google.com/uc?export=download&id=1kk39jFbijG9yNKJog5tybL7I842-xelp"
